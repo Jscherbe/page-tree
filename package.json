@@ -1,0 +1,40 @@
+{
+  "name": "@ulu/vuepress-page-tree",
+  "version": "0.0.1",
+  "description": "Use to automatically populate the config with the page links (default theme navbar, sidebar). For Vuepress 2.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node ./test.js",
+    "test:dev" : "vuepress dev test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jscherbe/vuepress-page-tree.git"
+  },
+  "keywords": [
+    "markdown",
+    "tree",
+    "pages",
+    "vuepress",
+    "nav",
+    "navbar",
+    "sidebar",
+    "menu"
+  ],
+  "author": "Joe Scherben",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Jscherbe/vuepress-page-tree/issues"
+  },
+  "homepage": "https://github.com/Jscherbe/vuepress-page-tree#readme",
+  "dependencies": {
+    "directory-tree": "^3.5.1",
+    "front-matter": "^4.0.2",
+    "html-to-text": "^9.0.4",
+    "markdown-it": "^13.0.1"
+  },
+  "devDependencies": {
+    "vuepress": "^2.0.0-beta.61"
+  }
+}
